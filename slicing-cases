@@ -1,0 +1,13 @@
+var nome = prompt("Qual é seu nome?");
+var primeiraLetra = nome.slice(0,1);
+primeiraLetra = primeiraLetra.toUpperCase();
+var nomeResto = nome.slice(1, nome.length);
+nomeResto = nomeResto.toLowerCase();
+var nomeFinal = primeiraLetra + nomeResto;
+alert("Hello, " + nomeFinal);
+// slice -> corta a posição da string (palavra), e depois passo esse resultado para uma variável que guarda o valor (primeiraLetra)
+// primeiraLetra.toUpperCase (significa que tudo dentro desta variável será em letras maiúsculas)
+// nome.slice(1, nome.length) -> vai pegar o resto do nome digitado, ignorando a posição (1), que seria a posição da primeira letra do nome do usuário
+// nomeResto -> passo todo resto do nome para letras minúsculas, evitando qualquer tipo de digitação errada por parte do usuário.
+// nomeFinal -> junta as duas variáveis que recebem a primeira letra com o resto do nome
+// alert() -> avisa o resultado final para o usuário.
