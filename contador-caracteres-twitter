@@ -1,0 +1,11 @@
+// word.length -> exibe o número de caracteres dentro de uma palavra.
+// prompt onde o usuário digita um parágrafo, quantos caracteres essa pessoa digitou e quantos caracteres restam de um total de 140 caracteres.
+// output esperado: "You have written 182 characters, you have -42 characters left.".
+
+var limit = 140;
+var answer = prompt("Digite aqui seu texto: ");
+answer.length;
+var usedCharacters = answer.length;
+var leftCharacters = limit - usedCharacters;
+alert("You have written " + usedCharacters + " characters. You have " + leftCharacters + " characters left.");
+
