@@ -1,0 +1,9 @@
+function lifeInWeeks(age) {
+
+var maxAge = 90;
+var yearsLeft = maxAge - age;
+var ageInDays = yearsLeft * 365;
+var ageInWeeks = yearsLeft * 52;
+var ageInMonths = yearsLeft * 12;
+console.log("You have " + ageInDays + " days, " + ageInWeeks + " weeks, and " + ageInMonths + " months left.");
+}
