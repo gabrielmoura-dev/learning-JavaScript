@@ -1,0 +1,15 @@
+var name1 = prompt("Qual é seu nome moço?");
+var name2 = prompt("Qual seu nome moça?")
+var scoreMatch = Math.random() * 100;
+scoreMatch = Math.floor(scoreMatch) + 1;
+
+// Love Calculator com if's abaixo
+if (scoreMatch > 70) {
+    alert(name1 + "e " + name2 + " deram " + scoreMatch + "% de match. Vocês são perfeitos!");
+}
+if (scoreMatch > 30 && scoreMatch <= 70) {
+    alert("Seu match é " + scoreMatch + "%. Mas não fique triste porque temos a solução!");
+}
+if (scoreMatch <= 30){
+        alert("Seu match de " + scoreMatch + "% precisa de uma alavancada ein!")
+}
