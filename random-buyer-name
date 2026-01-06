@@ -1,0 +1,6 @@
+function whosPaying(names) {
+    
+var selectedName = Math.floor(Math.random() * names.length);
+var randomName = names[selectedName];
+return randomName + " is going to buy lunch today!";  
+}
