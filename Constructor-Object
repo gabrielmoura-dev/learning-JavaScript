@@ -15,3 +15,18 @@ function agenteDeBagagens (nome, idade, permissaoDeTrabalho, linguasFaladas) {
     this.permissaoDeTrabalho = permissaoDeTrabalho;
     this.linguasFaladas = linguasFaladas;
 }
+
+// exemplo final de como ficaria - roda essa função antes de criar a variável
+function empregadaDomestica (nome, idade, anosDeExperiencia, linguasFaladas) {
+    this.nome = nome;
+    this.idade = idade;
+    this.anosDeExperiencia = anosDeExperiencia;
+    this.linguasFaladas = linguasFaladas;
+}
+
+// aqui insiro informações da nova empregada
+var empregadaDomestica1 = new empregadaDomestica ("Lisandra", 30, 5, ["Inglês", "Espanhol", "Italiano"]); 
+
+// aqui chamo as informações dessa nova empregada
+console.log(empregadaDomestica1.linguasFaladas);
+    (3) ['Inglês', 'Espanhol', 'Italiano']
