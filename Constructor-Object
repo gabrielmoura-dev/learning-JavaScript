@@ -1,0 +1,17 @@
+// declaração do objeto
+
+var empregadaDomestica1 = {
+    nome: "Roberta",
+    idade: 24,
+    anosDeExperiencia: 2,
+    tarefasDomesticas: ["dusting", "vacuuming", "mopping"],
+    linguasFaladas: ["Portuguese", "English"]
+}
+
+// Constructor Object
+function agenteDeBagagens (nome, idade, permissaoDeTrabalho, linguasFaladas) {
+    this.nome = nome;
+    this.idade = idade;
+    this.permissaoDeTrabalho = permissaoDeTrabalho;
+    this.linguasFaladas = linguasFaladas;
+}
