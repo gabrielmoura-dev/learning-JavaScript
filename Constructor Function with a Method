@@ -1,0 +1,13 @@
+// Constructor Function with a Method
+function empregadaDomestica (nome, idade, anosDeExperiencia, linguasFaladas) {
+    this.nome = nome;
+    this.idade = idade;
+    this.anosDeExperiencia = anosDeExperiencia;
+    this.linguasFaladas = linguasFaladas;
+    this.movaBagagem = function(){
+        alert("Posso pegar sua bagagem?");
+        pegarABagagem();
+        move();
+    }
+}
+    
