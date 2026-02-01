@@ -1,0 +1,6 @@
+function frenteEVerso (palavra){
+    const invertida = palavra.split("").reverse().join("");
+    return `${palavra} e ${invertida}`;
+}
+
+console.log(frenteEVerso("Jonas e Gabriel"));
