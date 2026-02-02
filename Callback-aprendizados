@@ -1,0 +1,24 @@
+// adicionando um evento de clique a um $0
+$0.addEventListener("click", function(evento) {
+    console.log(evento);
+});
+
+// função para detectação de uma tecla pressionada
+function outroAddEventListener(tipoDeEvento, callback) {
+    // Detecta um código de evento
+
+    var eventoQueAconteceu = {
+        tipoEvento: "keydown",
+        tecla: "j",
+        tempoDeTeclaPressionada: 2
+    }
+
+    if (eventoQueAconteceu.tipoEvento === tipoDeEvento) {
+        callback(eventoQueAconteceu);
+    }
+}
+
+// chamando o evento
+outroAddEventListener("keydown", function(evento) {
+    console.log(evento);
+});
